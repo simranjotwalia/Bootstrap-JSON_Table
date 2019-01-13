@@ -1,0 +1,539 @@
+/*
+		{
+			"word": "",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		}
+*/
+
+var vgp = [{
+		"vocabGroupID": "2",
+		"vocabGroupName": "Random"
+	}
+]
+
+var vj = {
+	"words": [{
+			"word": "excises ",
+			"vocabGroupID": "2",
+			"meaning": "verb: If someone excises something, they remove it deliberately and completely.",
+			"example": "...a personal crusade to excise racist and sexist references in newspapers.",	
+		},
+		{
+			"word": "tepid",
+			"vocabGroupID": "2",
+			"meaning": "adjective: If you describe something such as a feeling or reaction as tepid, you mean that it lacks enthusiasm.",
+			"example": "is nomination, while strongly backed by the President, has received tepid support in the Senate.",	
+		},
+		{
+			"word": "indictment",
+			"vocabGroupID": "2",
+			"meaning": "a thing that serves to illustrate that a system or situation is bad and deserves to be condemned.",
+			"example": "(p1)these rapidly escalating crime figures(/p1) are an indictment of (p2)our society(/p2) -- here p1 is indictment of p2,means how bad is p1 and needs to be condemned",	
+		},
+		{
+			"word": "erode",
+			"vocabGroupID": "2",
+			"meaning": "verb:If someone's authority, right, or confidence erodes or is eroded, it is gradually destroyed or removed.",
+			"example": "The governor wanted to erode and eventually end, the media's hold o political communication",	
+		},
+		{
+			"word": "prescient",
+			"vocabGroupID": "2",
+			"meaning": "adjective:If you say that someone or something was prescient, you mean that they were able to know or predict what was going to happen in the future.",
+			"example": "The poem was composed just a few months before her death and seems eerily prescient.",	
+		},
+		{
+			"word": "serendipitous",
+			"vocabGroupID": "2",
+			"meaning": "adjective: A serendipitous event is one that is not planned but has a good result.",
+			"example": "...a serendipitous discovery.",	
+		},
+		{
+			"word": "pretension",
+			"vocabGroupID": "2",
+			"meaning": "variable noun:[disapproval]:If you say that someone has pretensions, you disapprove of them because they claim or pretend that they are more important than they really are.",
+			"example": "We like him for his honesty, his lack of pretension.",	
+		},
+		{
+			"word": "blemish",
+			"vocabGroupID": "2",
+			"meaning": "countable noun: A blemish is a small mark on something that spoils its appearance.",
+			"example": "Every piece is inspected, and if there is the slightest blemish on it, it is rejected.",	
+		},
+		{
+			"word": "kindred",
+			"vocabGroupID": "2",
+			"meaning": "adjective: similar in kind; related.",
+			"example": "books on kindred subjects",	
+		},
+		{
+			"word": "affiliated",
+			"vocabGroupID": "2",
+			"meaning": "adjective: (of a subsidiary group or a person) officially attached or connected to an organization. -->Synonym to kindred i.e attached",
+			"example": "affiliated union members",	
+		},
+		{
+			"word": "incensed",
+			"vocabGroupID": "2",
+			"meaning": "adjective: very angry; enraged.",
+			"example": "Leonora glared back at him, incensed",	
+		},
+		{
+			"word": "outspokenly ",
+			"vocabGroupID": "2",
+			"meaning": "adverb: in a manner which is candid or bold (in speech)",
+			"example": "He was outspokenly critical of the scheme.",	
+		},
+		{
+			"word": "coalesce",
+			"vocabGroupID": "2",
+			"meaning": "verb: come together to form one mass or whole.",
+			"example": "the puddles had coalesced into shallow streams",	
+		},
+		{
+			"word": "long-winded",
+			"vocabGroupID": "2",
+			"meaning": "adjective [usually verb-link ADJECTIVE]: If you describe something that is written or said as long-winded, you are critical of it because it is longer than necessary",
+			"example": "The manifesto is long-winded, repetitious and often ambiguous or poorly drafted.",	
+		},
+		{
+			"word": "prolix ",
+			"vocabGroupID": "2",
+			"meaning": "adjective: (of a speech, book, etc) so long as to be boring; verbose",
+			"example": "he found the narrative too prolix and discursive",	
+		},
+		{
+			"word": "explicit",
+			"vocabGroupID": "2",
+			"meaning": "adjective: Something that is explicit is expressed or shown clearly and openly, without any attempt to hide anything.",
+			"example": "...sexually explicit scenes in films and books.",	
+		},
+		{
+			"word": "meager",
+			"vocabGroupID": "2",
+			"meaning": "adjective: If you describe an amount or quantity of something as meager, you are critical of it because it is very small or not enough.",
+			"example": "The rations that they gave us were meager and inadequate.",	
+		},
+		{
+			"word": "scanty",
+			"vocabGroupID": "2",
+			"meaning": "adjective: small or insufficient in quantity or amount.",
+			"example": "they paid whatever they could out of their scanty wages to their families",	
+		},
+		{
+			"word": "sporadic",
+			"vocabGroupID": "2",
+			"meaning": "adjective: Sporadic occurrences of something happen at irregular intervals.",
+			"example": "The sound of sporadic shooting could still be heard.",	
+		},
+		{
+			"word": "iconoclastic",
+			"vocabGroupID": "2",
+			"meaning": "adjective: criticizing or attacking cherished beliefs or institutions.",
+			"example": "an iconoclastic filmmaker who has pushed the boundaries with every film he's made",	
+		},
+		{
+			"word": "heterodox",
+			"vocabGroupID": "2",
+			"meaning": "adjective: not conforming with accepted or orthodox standards or beliefs. --synonym: iconoclastic",
+			"example": "heterodox views",	
+		},
+		{
+			"word": "synthesize",
+			"vocabGroupID": "2",
+			"meaning": "verb: If you synthesize different ideas, facts, or experiences, you combine them to form a single idea or impression.",
+			"example": "pupils should synthesize the data they have gathered",	
+		},
+		{
+			"word": "integrative",
+			"vocabGroupID": "2",
+			"meaning": "adjective: combining two or more things to form an effective unit or system. --synonym: synthesize",
+			"example": "an integrative approach to learning",	
+		},
+		{
+			"word": "doctrinaire",
+			"vocabGroupID": "2",
+			"meaning": "adjective: If you say that someone is doctrinaire or has a doctrinaire attitude, you disapprove of them because they have fixed principles which they try to force on other people.",
+			"example": "He is firm but not doctrinaire.",	
+		}
+		],
+	"notes": "From random sources"
+}
+/*
+06/05/2018
+
+		{
+			"word": "",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		}
+*/
+
+var vgp = [{
+		"vocabGroupID": "2",
+		"vocabGroupName": "Random"
+	}
+]
+
+var vj = {
+	"words": [
+		{
+			"word": "acumen",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "reverence",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "fastidious",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "agonize",
+			"vocabGroupID": "2",
+			"meaning": "verb: undergo great mental anguish through worrying about something. synonyms:	worry, upset oneself, be worried,",
+			"example": "I didn't agonize over the problem"
+		},
+		{
+			"word": "anguish",
+			"vocabGroupID": "2",
+			"meaning": "noun: severe mental or physical pain or suffering",
+			"example": "she shut her eyes in anguish"
+		},
+		{
+			"word": "capricious",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "naive",
+			"vocabGroupID": "2",
+			"meaning": "adjective: (of a person or action) showing a lack of experience, wisdom, or judgement.",
+			"example": "The method we were instructed to use now seems naive (artless or unsophisticated). OR They are not quite so naive as people might think."
+		},
+		{
+			"word": "frugal",
+			"vocabGroupID": "2",
+			"meaning": "adjective: People who are frugal or who live frugal lives do not eat much or spend much money on themselves. Antonyms:extravagant ",
+			"example": "he lives a frugal life"
+		},
+		{
+			"word": "thrift",
+			"vocabGroupID": "2",
+			"meaning": "noun:[approval] Thrift is the quality and practice of being careful with money and not wasting things.",
+			"example": "They were rightly praised for their thrift and enterprise."
+		}
+		{
+			"word": "stingy",
+			"vocabGroupID": "2",
+			"meaning": "adjective:[informal, disapproval] If you describe someone as stingy, you are criticizing them for being unwilling to spend money.",
+			"example": ""
+		},
+		{
+			"word": "diffidence",
+			"vocabGroupID": "2",
+			"meaning": "modesty or shyness resulting from a lack of self-confidence. antonyms: confidence",
+			"example": "For once his seeming diffidence was genuine, but quite unnecessary."
+		},
+		{
+			"word": "illiberal",
+			"vocabGroupID": "2",
+			"meaning": "adjective: restricting freedom of thought or behaviour.",
+			"example": "the government moved towards more illiberal policies"
+		},
+		{
+			"word": "decimate",
+			"vocabGroupID": "2",
+			"meaning": "verb: the act of destroying or damaging a great quantity or large part of something.",
+			"example": "Budget cuts have decimated public services in many towns and cities throughout the state."
+		},
+		{
+			"word": "hark back",
+			"vocabGroupID": "2",
+			"meaning": "intransitive verb: Hark, a very old word meaning 'listen,' was used as a cry in hunting. The master of the hunt might cry 'Hark! Forward!' or 'Hark! Back!'.Thus, a 'hark back' was a retracing of a route by dogs and hunters, and <meaning>'to hark back' was to turn back along the path.</meaning>",
+			"example": "The connection between decimate and the number ten harks back to a brutal practice of the army of ancient Rome."
+		},
+		{
+			"word": "hark back to",
+			"vocabGroupID": "2",
+			"meaning": "phrasal verb: If you say that one thing harks back to another thing in the past, you mean it is similar to it or takes it as a model.",
+			"example": "..pitched roofs, which hark back to the Victorian era."
+		},
+		{
+			"word": "intransitive verb",
+			"vocabGroupID": "2",
+			"meaning": "Grammar: A transitive verb is a verb that requires a direct object, which is a noun, pronoun, or noun phrase that follows the verb and completes the sentence's meaning by indicating the person or thing that receives the action of the verb. The direct object typically answers the question what? or whom? e.g That really annoys me. --- Intransitive: An intransitive verb is not used with a direct object. If something comes after an intransitive verb, that is, in the position usually inhabited by the direct object, it doesn't answer what? or whom?; instead it answers a question like where?, when?, how?, or how long? e.g They've been playing all afternoon.",
+			"example": "In 'I ran' and 'The bird flies,' 'ran' and 'flies' are intransitive."
+		},
+		{
+			"word": "give up",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "give in",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "run-of-the-mill",
+			"vocabGroupID": "2",
+			"meaning": "adjective: lacking unusual or special aspects; ordinary",
+			"example": "a run-of-the-mill job"
+		},
+		{
+			"word": "revere",
+			"vocabGroupID": "2",
+			"meaning": "verb: feel deep respect or admiration for (something).",
+			"example": "Cézanne's still lifes were revered by his contemporaries"
+		},
+		{
+			"word": "panacea",
+			"vocabGroupID": "2",
+			"meaning": "noun: a solution or remedy for all difficulties or diseases.",
+			"example": "the panacea for all corporate ills"
+		},
+		{
+			"word": "sanguine",
+			"vocabGroupID": "2",
+			"meaning": "adjective: optimistic or positive, especially in an apparently bad or difficult situation.",
+			"example": "he is sanguine about prospects for the global economy"
+		},
+		{
+			"word": "arcane",
+			"vocabGroupID": "2",
+			"meaning": "adjective: arcane procedures for electing people",
+			"example": "arcane procedures for electing people"
+		},
+		{
+			"word": "opulent",
+			"vocabGroupID": "2",
+			"meaning": "adjective: ostentatiously costly and luxurious.",
+			"example": "the opulent comfort of a limousine"
+		},
+		{
+			"word": "irresolute",
+			"vocabGroupID": "2",
+			"meaning": "adjective: showing or feeling hesitancy; uncertain.",
+			"example": "she stood irresolute outside his door"
+		},
+		{
+			"word": "enigmatic",
+			"vocabGroupID": "2",
+			"meaning": "adjective: difficult to interpret or understand; mysterious.",
+			"example": "he took the money with an enigmatic smile"
+		},
+		{
+			"word": "bucolic",
+			"vocabGroupID": "2",
+			"meaning": "adjective: relating to the pleasant aspects of the countryside and country life.",
+			"example": "the church is lovely for its bucolic setting"
+		},
+		{
+			"word": "mundane",
+			"vocabGroupID": "2",
+			"meaning": "adjective:Something that is mundane is very ordinary and not at all interesting or unusual.dull",
+			"example": "Be willing to do even mundane tasks."
+		},
+		{
+			"word": "adroit",
+			"vocabGroupID": "2",
+			"meaning": "adjective: clever or skilful.",
+			"example": "he was adroit at tax avoidance"
+		},
+		{
+			"word": "unpretentious",
+			"vocabGroupID": "2",
+			"meaning": "adjective: not attempting to impress others with an appearance of greater importance, talent, or culture than is actually possessed",
+			"example": "a friendly and unpretentious hotel"
+		},
+		{
+			"word": "spurious",
+			"vocabGroupID": "2",
+			"meaning": "adjective: not being what it purports to be; false or fake.",
+			"example": "separating authentic and spurious claims"
+		},
+		{
+			"word": "impel",
+			"vocabGroupID": "2",
+			"meaning": "verb: When something such as an emotion impels you to do something, it affects you so strongly that you feel forced to do it.",
+			"example": "...the courage and competitiveness which impels him to take risks"
+		},
+		{
+			"word": "impetus",
+			"vocabGroupID": "2",
+			"meaning": "noun: an impelling movement or force; incentive or impulse; stimulus",
+			"example": "She was restless and needed a new impetus for her talent."
+		},
+		{
+			"word": "murky",
+			"vocabGroupID": "2",
+			"meaning": "adjective: If you describe something as murky, you mean that the details of it are not clear or that it is difficult to understand.",
+			"example": "The law here is a little bit murky."
+		},
+		{
+			"word": "bluntness",
+			"vocabGroupID": "2",
+			"meaning": "adj: (of people, manner of speaking, etc) lacking refinement or subtlety; straightforward and uncomplicated, without trying to be polite",
+			"example": "She is blunt about her personal life."
+		},
+		{
+			"word": "Obscurity",
+			"vocabGroupID": "2",
+			"meaning": "noun: Obscurity is the quality of being difficult to understand. An obscurity is something that is difficult to understand",
+			"example": "Whatever its obscurities, the poem was clear on at least one count."
+		},
+		{
+			"word": "feeble",
+			"vocabGroupID": "2",
+			"meaning": "adj: If you describe someone or something as feeble, you mean that they are weak.",
+			"example": "He told them he was old and feeble and was not able to walk so far."
+		},
+		{
+			"word": "lucid",
+			"vocabGroupID": "2",
+			"meaning": "adj: Lucid writing or speech is clear and easy to understand.",
+			"example": "...a lucid account of the history of mankind."
+		},
+		{
+			"word": "",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		},
+		{
+			"word": "",
+			"vocabGroupID": "2",
+			"meaning": "",
+			"example": ""
+		}
+		],
+	"notes": "From random sources"
+}

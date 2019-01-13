@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Including all TPL's first as they are required by applications files so they need to be ready to Serve -->
+      <link rel="stylesheet" href="css/bootstrap.css"/>
+      <script src="js/handlebars-v4.0.11.js" ></script>
+      <script src="js/jquery-3.3.1.min.js"></script>
+        <!-- TPL inclusion ends here -->
+        
+        <script id="table_row" type="text/x-handlebars-template">
+            <tr>
+                <th scope="row">{{rowNumber}}</th>
+                <td>{{word}}</td>
+                <td>{{wordMeaning}}</td>
+                <td>{{exampleSentence}}</td>
+            </tr>
+            </script>
+            
+        <script src="js/tableRenderer.js" ></script>
+      
+
+    </head>
+    <body>
+        <div id = "table_container">
+            <table id = "words-table" class="table table-striped table-bordered">
+                <caption id = "table-cap"></caption>
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Word</th>
+                        <th scope="col">Meaning</th>
+                        <th scope="col">Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   <!-- Rows to be inserted here dynamically through Handlebars -->
+                </tbody>
+            </table>         
+        </div>
+    </body>
+</html>

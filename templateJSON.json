@@ -1,0 +1,49 @@
+/*
+		{
+			"word": "",
+			"vocabGroupID": "1",
+			"meaning": "",
+			"example": ""	
+		}
+*/
+
+var vgp = [{
+		"vocabGroupID": "1",
+		"vocabGroupName": "THE ATLANTIC"
+	}
+]
+
+var vj = {
+	"words": [{
+			"word": "Grandeur ",
+			"vocabGroupID": "1",
+			"meaning": "",
+			"example": "The grandeur is obvious",
+			
+		},
+{
+			"word": "Spurious ",
+			"vocabGroupID": "1",
+			"meaning": "",
+			"example": "The red bar in the middle contains spurious examples of g, what the Codice scientists call 'false friends.'",	
+		},{
+			"word": "plausible ",
+			"vocabGroupID": "1",
+			"meaning": "",
+			"example": "",	
+		},{
+			"word": "flummoxed ",
+			"vocabGroupID": "1",
+			"meaning": "",
+			"example": "But those four parallel columns in the middle flummoxed it",	
+		},{
+			"word": "",
+			"vocabGroupID": "1",
+			"meaning": "",
+			"example": "",	
+		}
+		],
+	"notes": "From The Atlantic Magzine"
+}
+
+renderTableJSON(vj,vgp);
